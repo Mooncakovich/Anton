@@ -1,8 +1,8 @@
 body {
   font-family: 'Ubuntu', sans-serif;
-  
     background-color: black;
   color: #fff;
+    margin-top: 7%;
 }
 .jumbotron h1 {
   color: #353535;

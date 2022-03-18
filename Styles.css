@@ -21,6 +21,17 @@ div {
     color: white;
     width: 100%;
     font-family: Verdana;
+    z-index: 500;
+    position: fixed;
+    display: flex;
+}
+.header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .header__in {
     width: 100%;
@@ -49,7 +60,7 @@ div {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: orangered;
+  background: orangered: ;
   z-index: -1;
   -webkit-transform:scaleX(0);
       -ms-transform:scaleX(0);
@@ -93,8 +104,27 @@ div {
 }
 
 .page {
+    padding-top: 5%; 
     padding-left: 15%;
     padding-right: 15%;
+    width: 100%;
+}
+div.main .center {
+
+position: absolute;
+
+top: 45%;
+
+left: 0;
+
+right: 0;
+
+text-align: center;
+
+text-transform: uppercase;
+
+z-index: 15;
+
 }
 
 body {
@@ -106,9 +136,58 @@ header {
 }
 
 .but {
-    transform: skewX(15deg);
+     transform: skewX(15deg);
 }
 
 .zapis {
     transform: skewX(15deg);
 }
+
+.left{
+    opacity: 0;
+}
+.right{
+    opacity: 0;
+}
+.left.act {
+    font-size: 30px;
+    position: relative;
+    animation: showLeft 1s;
+    opacity: 1;
+}
+.right.act {
+    position: relative;
+    animation: show 1s;
+    animation: showRight 1s;
+    opacity: 1;
+}
+@keyframes showLeft {
+
+from {left:-30%; opacity: 0;}
+
+to {left:0; opacity: 1;}
+
+}
+@keyframes showRight {
+
+from {right:-10%; opacity: 0;}
+
+to {right:0; opacity: 1;}
+
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+
+#ob {
+    transform: skewX(15deg);
+}
+
+
+
+
