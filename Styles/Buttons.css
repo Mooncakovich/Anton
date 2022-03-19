@@ -62,8 +62,8 @@ a.animated-button.sandy-one:hover:after {
     display: inline-block;
     transform: skewX(-15deg);
     padding: 2%;
-    margin-top: -2%;
-    margin-bottom: -2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     background-color: black;
     border: 2px solid orangered;
     background-image: linear-gradient(orangered, orangered);
@@ -77,7 +77,7 @@ a.animated-button.sandy-one:hover:after {
   color: #fff;
 }
 #contacts {
-    text-align: right;
+    text-align: center;
 }
 #button:before {
   content: '';

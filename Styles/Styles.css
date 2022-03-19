@@ -43,6 +43,7 @@ body {
   color: #fff;
     margin-top: 7%;
 }
+
 h2 {
   color: #BDC3C7
 }
@@ -50,8 +51,6 @@ h2 {
 .header {
     width: 100%;
     padding: 2%;
-    padding-left: 15%;
-    padding-right: 15%;
     top: 0;
     left: 0;
     background-color: black;
@@ -72,16 +71,16 @@ h2 {
     height: 100%;
 }
 .header__in {
-    width: 100%;
+    min-width: 80%;
+    margin: 0% auto;
     display: flex;
     align-items: center;
     position: relative;
 }
 .page {
     padding-top: 5%; 
-    padding-left: 15%;
-    padding-right: 15%;
-    width: 100%;
+    width: 80%;
+    margin: 0% auto;
 }
 footer {
     border-top: 1px solid orangered;
@@ -89,9 +88,8 @@ footer {
 
 .footer {
     width: 100%;
+    min-width: 100%;
     padding: 1%;
-    padding-left: 15%;
-    padding-right: 15%;
     bottom: 0;
     left: 0;
     background-color: black;
@@ -104,7 +102,8 @@ footer {
 }
 
 .footer_in {
-    width: 100%;
+    width: 80%;
+    margin: 0% auto;
     display: flex;
     align-items: center;
 }
@@ -115,14 +114,15 @@ footer {
 
 content {
     font-size: 30px;
+
+    width: 80%;
+    margin: 0% auto;
 }
 
 .galery {
-    border-top: 1px solid white;
-    background-color:  #000;
 }
 
-.services {
+.servi {
     border-top: 1px solid white;
     background-color: #0d0d0d;
 }
@@ -144,4 +144,15 @@ content {
 }
 .rovniy{
     transform: skewX(15deg);
+}
+
+
+
+.gall {
+    border-top: 1px solid white;
+    background-color:  #000;
+}
+
+html {
+    right: 0;
 }
