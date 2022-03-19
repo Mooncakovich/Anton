@@ -136,3 +136,9 @@ content {
     padding: 5%;
     margin: 1%;
 }
+
+.serv_name {
+    position: fixed;
+    padding-bottom: 75%;
+    padding-top: 15%;
+}
