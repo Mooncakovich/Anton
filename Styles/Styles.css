@@ -142,3 +142,6 @@ content {
     padding-bottom: 75%;
     padding-top: 15%;
 }
+.rovniy{
+    transform: skewX(15deg);
+}
