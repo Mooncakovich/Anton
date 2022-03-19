@@ -119,4 +119,20 @@ content {
 
 .galery {
     border-top: 1px solid white;
+    background-color:  #000;
+}
+
+.services {
+    border-top: 1px solid white;
+    background-color: #0d0d0d;
+}
+
+.serv {
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/1627190042_10-kartinkin-com-p-tekstura-brizgi-vodi-krasivo-25.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    font-size: 15px;
+    padding: 5%;
+    margin: 1%;
 }
