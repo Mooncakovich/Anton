@@ -1,0 +1,81 @@
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    padding: 0.1%;    
+}
+div.main .center {
+
+position: absolute;
+
+top: 45%;
+
+left: 0;
+
+right: 0;
+
+text-align: center;
+
+text-transform: uppercase;
+
+z-index: 15;
+
+}
+header {
+    border-bottom: 1px solid white;
+}
+img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 300px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+  color: #fff;
+    margin-top: 7%;
+}
+h2 {
+  color: #BDC3C7
+}
+
+.header {
+    width: 100%;
+    padding: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    width: 100%;
+    font-family: Verdana;
+    z-index: 500;
+    position: fixed;
+    display: flex;
+}
+.header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header__in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.page {
+    padding-top: 5%; 
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+}

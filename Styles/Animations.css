@@ -1,0 +1,33 @@
+@keyframes showLeft {
+
+from {left:-30%; opacity: 0;}
+
+to {left:0; opacity: 1;}
+
+}
+@keyframes showRight {
+
+from {right:-10%; opacity: 0;}
+
+to {right:0; opacity: 1;}
+
+}
+
+.left{
+    opacity: 0;
+}
+.right{
+    opacity: 0;
+}
+.left.act {
+    font-size: 30px;
+    position: relative;
+    animation: showLeft 1s;
+    opacity: 1;
+}
+.right.act {
+    position: relative;
+    animation: show 1s;
+    animation: showRight 1s;
+    opacity: 1;
+}
