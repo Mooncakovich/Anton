@@ -25,6 +25,10 @@ text-transform: uppercase;
 z-index: 15;
 
 }
+.cent{
+    padding-top: 3%;
+    text-align: center;
+}
 header {
     border-bottom: 1px solid white;
 }
@@ -107,4 +111,12 @@ footer {
 
 .brand {
     font-size: 18px;
+}
+
+content {
+    font-size: 30px;
+}
+
+.galery {
+    border-top: 1px solid white;
 }

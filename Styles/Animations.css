@@ -1,6 +1,6 @@
 @keyframes showLeft {
 
-from {left:-30%; opacity: 0;}
+from {left:-10%; opacity: 0;}
 
 to {left:0; opacity: 1;}
 
@@ -12,22 +12,35 @@ from {right:-10%; opacity: 0;}
 to {right:0; opacity: 1;}
 
 }
+@keyframes showBottom {
 
+from {bottom:-100%; opacity: 0;}
+
+to {bottom:0; opacity: 1;}
+
+}
+.bottom{
+    opacity: 0;
+    bottom: 100%;
+}
 .left{
     opacity: 0;
 }
 .right{
     opacity: 0;
 }
+.bottom.act {
+    position: relative;
+    animation: showBottom 1s;
+    opacity: 1;
+}
 .left.act {
-    font-size: 30px;
     position: relative;
     animation: showLeft 1s;
     opacity: 1;
 }
 .right.act {
     position: relative;
-    animation: show 1s;
     animation: showRight 1s;
     opacity: 1;
 }
