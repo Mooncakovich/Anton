@@ -79,3 +79,32 @@ h2 {
     padding-right: 15%;
     width: 100%;
 }
+footer {
+    border-top: 1px solid orangered;
+}
+
+.footer {
+    width: 100%;
+    padding: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 1;
+    color: white;
+    width: 100%;
+    font-family: Verdana;
+    z-index: 500;
+    display: flex;
+}
+
+.footer_in {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    font-size: 18px;
+}
