@@ -20,6 +20,7 @@
 
 
 <body>
+
     <header class="header">
         <div class="header__in row justify-content-start">
             <div class="col-md-5 col-sm-4 col-xs-12 row" id="brand">
@@ -172,19 +173,20 @@
                 <a href="#header" class="popup_close">X</a>
                 <div class="popup_title">Оставьте свои данные и мы обязательно с вами свяжемся!</div>
                 <div class="popup_text">
-                    <form>
+                    <form action="send.php" method="post">
                         <div class="input-container">
-                            <input type="text" required="" />
+                            <input type="text" name="fio" required />
                             <label>Ваши имя и фамилия:</label>
                         </div>
                         <div class="input-container">
-                            <input type="mail" required="" />
+                            <input type="mail" name="email" required />
                             <label>Ваш Email:</label>
                         </div>
                         <div class="input-container">
-                            <input type="phone" required="" />
+                            <input type="phone" name="phone" required>
                             <label>Ваш номер телефона:</label>
                         </div>
+                            <input type="submit" value="отправить">
 
                         <div id="button">
                             <a href="" class="rovniy but btn btn-sm animated-button">Отправить</a>
@@ -208,9 +210,9 @@
                 График работы
             </div>
             <div class="col-sm-3 col-md-3 col-xs-12">
-            <p class="svet">+7-705-111-11-11</p>
-            <p class="svet">+7-705-111-11-11</p>
-            <p class="svet">+7-705-111-11-11</p>
+                <p class="svet">+7-705-111-11-11</p>
+                <p class="svet">+7-705-111-11-11</p>
+                <p class="svet">+7-705-111-11-11</p>
             </div>
             <div class="col-sm-2 col-md-2 col-xs-12">
 
@@ -236,4 +238,6 @@
     <script src="Scripts/left.js"></script>
     <script src="Scripts/right.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body></html>
+</body>
+
+</html>
